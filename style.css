@@ -167,6 +167,10 @@ i{
     grid-area: textAlien;
 }
 
+.movies p{
+    text-align: justify;
+    padding-right: 35px;
+}
 
 
 .movies .title{
