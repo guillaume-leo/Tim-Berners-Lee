@@ -1,0 +1,214 @@
+body{
+    background-color: #ebebeb;
+    color:#7d7d7d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro{
+    background-color: #ffffff;
+    width: 55%;
+    margin: auto;
+    align-content: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height:480px 
+}
+
+.portrait{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin: auto;
+    border-radius: 100px;
+    background-color: blue;
+    border-width: 10px;
+}
+
+.name{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #dd5555;
+}
+
+.intro .title{
+    text-align: center;
+}
+
+.intro p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.intro a{
+    background-color: #dd5555;
+    color: #ebebeb;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    width: 30%;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.social{
+    margin-top: 25px;
+    background-color: #ffffff;
+    width: 55%;
+    margin: auto;
+    align-content: center;
+    border-radius: 10px;
+    height: 180px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    ".  flogo   llogo   tlogo   ."
+    ".  ftext   ltext   ttext   .";
+ 
+}
+
+#flogo{
+    grid-area: flogo;
+}
+
+#llogo{
+    grid-area: llogo;
+}
+
+#tlogo{
+    grid-area: tlogo;
+}
+
+#ftext{
+    grid-area: ftext;
+}
+
+#ltext{
+    grid-area: ltext;
+}
+
+#ttext{
+    grid-area: ttext;
+}
+
+a{
+    text-decoration: none;
+    color: #cccccc;
+    text-align: center;
+    
+}
+
+i{
+    padding-top: 50px;
+    font-size: 30px !important;
+    color: #cccccc;
+    text-align: center;
+}
+
+#his{
+    background-color: #d4d4d4;
+}
+
+
+/* 
+a{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+
+.social .linksocial{
+    text-decoration: none;
+    color: #cccccc;
+    list-style-type: none;
+    width: 50%;
+    margin: auto;
+}
+
+li{
+    display: inline;
+}
+
+.social .logo{
+    padding-top: 10%;
+    color: #cccccc;
+    list-style-type: none;
+    width: 50%;
+    margin: auto;
+}
+
+.logo li{
+    margin-left: 30px;
+} */
+
+/* MOVIE PART */
+
+
+.movies{
+    background-color: #ffffff;
+    width: 55%;
+    margin-bottom: 30px;
+    margin: auto;
+    align-content: center;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-areas: 
+    "title title"
+    "odyssey textOdyssey"
+    "hulot textHulot"
+    "alien textAlien";
+}
+
+.title{
+    grid-area: title;
+}
+
+.odyssey{
+    grid-area: odyssey;
+}
+
+.textOdyssey{
+    grid-area: textOdyssey;
+}
+
+.hulot{
+    grid-area: hulot;
+}
+
+.textHulot{
+    grid-area: textHulot;
+}
+
+.alien{
+    grid-area: alien;
+}
+
+.textAlien{
+    grid-area: textAlien;
+}
+
+
+
+.movies .title{
+    width:50%;
+    margin: auto;
+    text-align: center;
+}
+
+.movies img{
+    margin-left: 20px;
+    width: 40%;
+    display: inline;
+}
+

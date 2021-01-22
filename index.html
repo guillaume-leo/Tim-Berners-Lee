@@ -1,33 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tim Berners Lee</title>
 </head>
 <body>
-    
     <section class="intro">
         
         <img class="portrait" src="img/tim_berners_lee.jpg" alt="portrait of tim berners less">
         <h1 class="name">Time Berners-Lee</h1>
         <h3 class="title">Inventor of HTML</h3>
         <p>Time Berners-Lee is the <b>inventor</b> of the Web. In 1989, Time was working in a computing services section of CERN when he came up with the concept; at the time he had no idea that it could be implemented on such an <b>enormous scale.</b></p>
+        <a href="#">See for yourself</a>
     </section>
 
     <section class="social">
-        <a href="#">See for yourself</a>
-        <ul>
-            <li><i class="fab fa-facebook-f"></i><br><a href="#">Facebook</a></li>
-            <li><i class="fab fa-linkedin-in"></i><br><a href="#">Linkedin</a></li>
-            <li><i class="fab fa-twitter"></i><br><a href="#">Twitter</a></li>
-        </ul>
+       
+            <i id="flogo" class="fa fa-facebook-f"></i>
+            <i id="llogo" class="fa fa-linkedin"></i>
+            <i id="tlogo" class="fa fa-twitter"></i>
+       
+       
+            <a id="ftext" href="#">Facebook</a>
+            <a id="ltext" href="#">Linkedin</a>
+            <a id="ttext" href="#">Twitter</a>
+       
 
     </section>
 
     <section class="movies">
+        <h3 class="title"><span id="his">His</span> Favorite movies</h3>
+        
+        <img class="odyssey" src="img/space_odyssey.jpg" alt="space odyssey poster">
+        <article class="textOdyssey">
+        <h4>2001 - Space Odyssey</h4>
+        <p>Humanity finds a mysterous, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L 9000, sets off on a quest.</p>
+        </article>
 
+        <img class="hulot" src="/img/mister_hulot.jpg" alt="mister hulot poster">
+        <article class="textHulot">
+        <h4>Monsieur Hulot</h4>
+        <p>Monsieur Hulot comes to a beachside hotel for a vacation, chere he accidentally (but good-naturedly) causes havoc.</p>
+        </article>
+        
+        <img class="alien" src="img/alien.jpg" alt="alien poster">
+        <article class=textAlien>
+        <h4>Alien</h4>
+        <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors the crew heads home only to realize that a deadly bioform has joined them.</p>
+        </article>
+  
     </section>
 
 </body>
